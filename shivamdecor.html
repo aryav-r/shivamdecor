@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Decor – Premier Interior Designer in Mumbai | Luxury Interiors</title>
+<meta name="description" content="Shivam Decor is Mumbai's top-rated interior design company. Specializing in residence, office, commercial, villa, bungalow, apartment, lobby & clubhouse interiors. Turnkey projects across Mumbai. Call +91 97950 13932.">
+<meta name="keywords" content="interior designer in Mumbai, interior decorators in Mumbai, residence interior designers Mumbai, office interior designers Mumbai, commercial interior designers, turnkey interior projects, apartment interiors Mumbai, villa interiors Mumbai, bungalow interiors, clubhouse interiors, lobby design Mumbai, carpentry Mumbai, tiling painting Mumbai, Goregaon interior designer">
+<meta name="author" content="Shivam Decor">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Shivam Decor – Luxury Interior Design in Mumbai">
+<meta property="og:description" content="Premium interior design services in Mumbai. Residence, office, commercial, villa & bungalow interiors. Rated 4.9/5. Call +91 97950 13932.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<link rel="canonical" href="https://shivam-decor.in/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"InteriorDesigner",
+  "name":"Shivam Decor",
+  "description":"Premium interior design company in Mumbai specializing in residential, commercial, and office interiors.",
+  "address":{"@type":"PostalAddress","streetAddress":"Shop No 1, Surya Compound Last, Bus Stop, A K Marg, Shree Krishna Nagar, Municipal Colony, Sector A","addressLocality":"Goregaon East","addressRegion":"Maharashtra","postalCode":"400065","addressCountry":"IN"},
+  "telephone":"+919795013932",
+  "openingHours":"Mo-Su 00:00-23:59",
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"10","bestRating":"5"},
+  "areaServed":["Mumbai","Goregaon","Andheri","Malad","Borivali","Thane","Navi Mumbai"],
+  "url":"https://shivam-decor.in",
+  "priceRange":"₹₹₹",
+  "hasMap":"https://maps.google.com/?q=Shop+No+1+Surya+Compound+Goregaon+East+Mumbai"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --black:#080808;
+  --white:#fafaf8;
+  --gold:#b8965a;
+  --gold-light:#d4b07a;
+  --gray-100:#f5f5f3;
+  --gray-200:#e8e8e6;
+  --gray-300:#c8c8c6;
+  --gray-500:#888886;
+  --gray-700:#444442;
+  --fs-display:clamp(3rem,7vw,6.5rem);
+  --fs-h1:clamp(2.2rem,5vw,4.2rem);
+  --fs-h2:clamp(1.8rem,3.5vw,3rem);
+  --fs-h3:clamp(1.2rem,2vw,1.6rem);
+  --fs-body:clamp(0.95rem,1.5vw,1.05rem);
+  --ease-out:cubic-bezier(0.22,1,0.36,1);
+  --ease-in-out:cubic-bezier(0.4,0,0.2,1)
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Jost',sans-serif;background:var(--white);color:var(--black);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+button{cursor:pointer;border:none;background:none;font-family:inherit}
+
+/* CURSOR */
+.cursor{width:8px;height:8px;background:var(--black);border-radius:50%;position:fixed;pointer-events:none;z-index:9999;transition:transform 0.15s var(--ease-out);transform:translate(-50%,-50%)}
+.cursor-follower{width:36px;height:36px;border:1px solid var(--black);border-radius:50%;position:fixed;pointer-events:none;z-index:9998;transition:transform 0.35s var(--ease-out),opacity 0.3s;transform:translate(-50%,-50%);opacity:0.35}
+
+/* LOADER */
+#loader{position:fixed;inset:0;background:var(--black);z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1rem;transition:opacity 0.8s var(--ease-out),transform 0.8s var(--ease-out)}
+#loader.gone{opacity:0;transform:translateY(-100%);pointer-events:none}
+.loader-logo{font-family:'Cormorant Garamond',serif;font-size:2.2rem;color:var(--white);letter-spacing:0.2em;font-weight:300}
+.loader-bar-wrap{width:160px;height:1px;background:rgba(255,255,255,0.15);overflow:hidden}
+.loader-bar{height:100%;width:0;background:var(--gold);transition:width 1.2s var(--ease-out)}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1.5rem 5%;display:flex;align-items:center;justify-content:space-between;transition:background 0.4s,padding 0.4s,box-shadow 0.4s}
+nav.scrolled{background:rgba(250,250,248,0.96);backdrop-filter:blur(12px);padding:1rem 5%;box-shadow:0 1px 0 var(--gray-200)}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase}
+.nav-links{display:flex;gap:2.5rem;align-items:center;list-style:none}
+.nav-links a{font-size:0.8rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:400;color:var(--gray-700);transition:color 0.25s;position:relative}
+.nav-links a::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:1px;background:var(--gold);transition:width 0.3s var(--ease-out)}
+.nav-links a:hover::after{width:100%}
+.nav-links a:hover{color:var(--black)}
+.nav-cta{background:var(--black);color:var(--white);padding:0.65rem 1.5rem;font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;transition:background 0.3s,transform 0.2s}
+.nav-cta:hover{background:var(--gold)}
+.hamburger{display:none;flex-direction:column;gap:5px;width:28px;cursor:pointer}
+.hamburger span{height:1px;background:var(--black);transition:all 0.35s var(--ease-out);display:block}
+.hamburger.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.hamburger.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;inset:0;background:var(--white);z-index:900;flex-direction:column;align-items:center;justify-content:center;gap:2.5rem;opacity:0;transition:opacity 0.4s}
+.mobile-menu.open{display:flex;opacity:1}
+.mobile-menu a{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:300;letter-spacing:0.08em}
+
+/* HERO */
+#hero{min-height:100vh;background:var(--black);color:var(--white);display:flex;align-items:center;padding:0 5%;position:relative;overflow:hidden}
+.hero-bg-pattern{position:absolute;inset:0;background-image:radial-gradient(circle at 20% 50%, rgba(184,150,90,0.06) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(255,255,255,0.03) 0%, transparent 50%);pointer-events:none}
+.hero-grid-lines{position:absolute;inset:0;pointer-events:none;opacity:0.04}
+.hero-grid-lines::before{content:'';position:absolute;top:0;left:33.33%;width:1px;height:100%;background:var(--white)}
+.hero-grid-lines::after{content:'';position:absolute;top:0;left:66.66%;width:1px;height:100%;background:var(--white)}
+.hero-content{position:relative;z-index:2;max-width:900px;padding-top:6rem}
+.hero-eyebrow{font-size:0.75rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:1.8rem;font-weight:400;opacity:0;transform:translateY(20px);animation:fadeUp 0.9s var(--ease-out) 0.8s forwards}
+.hero-headline{font-family:'Cormorant Garamond',serif;font-size:var(--fs-display);font-weight:300;line-height:1.02;margin-bottom:1.5rem;opacity:0;transform:translateY(30px);animation:fadeUp 1.1s var(--ease-out) 1s forwards}
+.hero-headline em{font-style:italic;font-weight:300;color:var(--gold-light)}
+.hero-sub{font-size:1rem;color:rgba(255,255,255,0.5);max-width:480px;line-height:1.8;margin-bottom:2.8rem;font-weight:300;opacity:0;transform:translateY(20px);animation:fadeUp 0.9s var(--ease-out) 1.2s forwards}
+.hero-actions{display:flex;gap:1.2rem;flex-wrap:wrap;opacity:0;transform:translateY(20px);animation:fadeUp 0.9s var(--ease-out) 1.4s forwards}
+.btn-primary{background:var(--gold);color:var(--black);padding:1rem 2.2rem;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;transition:all 0.3s var(--ease-out);display:inline-flex;align-items:center;gap:0.7rem}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-2px)}
+.btn-outline{border:1px solid rgba(255,255,255,0.25);color:var(--white);padding:1rem 2.2rem;font-size:0.8rem;letter-spacing:0.18em;text-transform:uppercase;font-weight:400;transition:all 0.3s;display:inline-flex;align-items:center;gap:0.7rem}
+.btn-outline:hover{border-color:rgba(255,255,255,0.6);background:rgba(255,255,255,0.05)}
+.hero-rating-badge{position:absolute;right:5%;bottom:3rem;display:flex;align-items:center;gap:1rem;opacity:0;animation:fadeUp 0.9s var(--ease-out) 1.6s forwards}
+.rating-box{border:1px solid rgba(255,255,255,0.12);padding:1.2rem 1.6rem;backdrop-filter:blur(6px);background:rgba(255,255,255,0.03)}
+.rating-number{font-family:'Cormorant Garamond',serif;font-size:2.8rem;font-weight:300;color:var(--white);line-height:1}
+.rating-stars{color:var(--gold);font-size:0.9rem;margin-bottom:0.2rem;letter-spacing:2px}
+.rating-label{font-size:0.72rem;letter-spacing:0.12em;color:rgba(255,255,255,0.4);text-transform:uppercase}
+.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0.5rem;opacity:0;animation:fadeUp 0.8s var(--ease-out) 2s forwards}
+.hero-scroll span{font-size:0.65rem;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.3)}
+.scroll-line{width:1px;height:50px;background:linear-gradient(to bottom,var(--gold),transparent);animation:scrollAnim 1.8s ease-in-out infinite}
+
+/* TRUST BAR */
+#trust{background:var(--gray-100);border-top:1px solid var(--gray-200);border-bottom:1px solid var(--gray-200);padding:2rem 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem}
+.trust-item{display:flex;flex-direction:column;align-items:center;gap:0.3rem;flex:1;min-width:120px}
+.trust-number{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:500;color:var(--black);line-height:1}
+.trust-label{font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gray-500);font-weight:400}
+.trust-divider{width:1px;height:50px;background:var(--gray-300)}
+
+/* SECTION BASE */
+section{padding:7rem 5%}
+.section-tag{font-size:0.72rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);font-weight:400;margin-bottom:1rem;display:block}
+.section-title{font-family:'Cormorant Garamond',serif;font-size:var(--fs-h2);font-weight:300;line-height:1.1;margin-bottom:1.5rem}
+.section-title em{font-style:italic}
+.section-body{font-size:var(--fs-body);color:var(--gray-700);line-height:1.85;max-width:600px}
+
+/* REVEAL ANIMATION */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 0.9s var(--ease-out),transform 0.9s var(--ease-out)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:opacity 0.9s var(--ease-out),transform 0.9s var(--ease-out)}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(40px);transition:opacity 0.9s var(--ease-out),transform 0.9s var(--ease-out)}
+.reveal-right.visible{opacity:1;transform:translateX(0)}
+.delay-1{transition-delay:0.1s}
+.delay-2{transition-delay:0.2s}
+.delay-3{transition-delay:0.3s}
+.delay-4{transition-delay:0.4s}
+.delay-5{transition-delay:0.5s}
+
+/* SERVICES */
+#services{background:var(--white)}
+.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem;flex-wrap:wrap;gap:2rem}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:var(--gray-200);border:1px solid var(--gray-200)}
+.service-card{background:var(--white);padding:2.5rem 2rem;transition:background 0.35s var(--ease-out);position:relative;overflow:hidden;cursor:default}
+.service-card::before{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--gold);transition:width 0.5s var(--ease-out)}
+.service-card:hover{background:var(--black)}
+.service-card:hover::before{width:100%}
+.service-card:hover .service-name{color:var(--white)}
+.service-card:hover .service-desc{color:rgba(255,255,255,0.45)}
+.service-card:hover .service-icon{color:var(--gold)}
+.service-icon{font-size:1.8rem;margin-bottom:1.2rem;color:var(--gray-300);transition:color 0.35s;display:block}
+.service-name{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:400;margin-bottom:0.7rem;transition:color 0.35s;line-height:1.2}
+.service-desc{font-size:0.85rem;color:var(--gray-500);line-height:1.7;transition:color 0.35s;font-weight:300}
+
+/* PORTFOLIO */
+#portfolio{background:var(--black);color:var(--white)}
+#portfolio .section-title{color:var(--white)}
+#portfolio .section-tag{color:var(--gold)}
+.portfolio-intro{color:rgba(255,255,255,0.45);max-width:580px;line-height:1.85;font-size:var(--fs-body);font-weight:300;margin-bottom:4rem}
+.portfolio-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem}
+.p-card{position:relative;overflow:hidden;background:var(--gray-700)}
+.p-card-1{grid-column:span 7;aspect-ratio:16/10}
+.p-card-2{grid-column:span 5;aspect-ratio:4/5}
+.p-card-3{grid-column:span 5;aspect-ratio:4/3}
+.p-card-4{grid-column:span 7;aspect-ratio:16/9}
+.p-card-visual{width:100%;height:100%;display:flex;align-items:flex-end;padding:1.8rem;position:relative;overflow:hidden}
+.p-card-bg{position:absolute;inset:0;transition:transform 0.7s var(--ease-out)}
+.p-card:hover .p-card-bg{transform:scale(1.04)}
+.p-card-inner{position:relative;z-index:2}
+.p-tag{font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem}
+.p-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--white)}
+.p-loc{font-size:0.78rem;color:rgba(255,255,255,0.4);margin-top:0.2rem}
+/* Styled BG gradients as placeholders */
+.bg-1{background:linear-gradient(135deg,#1a1410 0%,#2d2218 50%,#1a1410 100%)}
+.bg-2{background:linear-gradient(160deg,#0f1a15 0%,#1a2e22 60%,#0f1a15 100%)}
+.bg-3{background:linear-gradient(135deg,#140f1a 0%,#231828 60%,#140f1a 100%)}
+.bg-4{background:linear-gradient(135deg,#0d1318 0%,#1a2530 60%,#0d1318 100%)}
+/* Geometric overlays as pseudo-project images */
+.p-card-bg::after{content:'';position:absolute;inset:0;opacity:0.12}
+.bg-1::after{background:repeating-linear-gradient(45deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 30px)}
+.bg-2::after{background:repeating-linear-gradient(90deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 40px)}
+.bg-3::after{background:repeating-linear-gradient(135deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 25px)}
+.bg-4::after{background:repeating-linear-gradient(60deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 50px)}
+.p-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.85) 0%,transparent 60%)}
+.portfolio-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:2rem;margin-top:4rem;padding-top:4rem;border-top:1px solid rgba(255,255,255,0.1)}
+.p-stat-num{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--white);line-height:1}
+.p-stat-num span{font-size:1.5rem;color:var(--gold)}
+.p-stat-label{font-size:0.75rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.35);margin-top:0.4rem}
+
+/* ABOUT */
+#about{background:var(--white)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center}
+.about-visual{position:relative}
+.about-img-frame{background:var(--gray-100);aspect-ratio:3/4;position:relative;overflow:hidden}
+.about-img-inner{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--gray-200) 0%,var(--gray-100) 100%);position:relative}
+.about-img-inner::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(0,0,0,0.015) 40px,rgba(0,0,0,0.015) 41px)}
+.about-monogram{font-family:'Cormorant Garamond',serif;font-size:10rem;font-weight:300;color:var(--gray-200);user-select:none;line-height:1;letter-spacing:-5px}
+.about-badge{position:absolute;bottom:-1.5rem;right:-1.5rem;width:130px;height:130px;background:var(--black);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:0.3rem}
+.about-badge-num{font-family:'Cormorant Garamond',serif;font-size:2.6rem;font-weight:400;color:var(--white);line-height:1}
+.about-badge-text{font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);text-align:center;line-height:1.4}
+.about-content{}
+.about-content .section-body{max-width:100%}
+.about-pillars{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2.5rem}
+.pillar{padding:1.5rem;border:1px solid var(--gray-200);transition:border-color 0.3s,background 0.3s}
+.pillar:hover{border-color:var(--gold);background:var(--gray-100)}
+.pillar-title{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:500;margin-bottom:0.4rem}
+.pillar-body{font-size:0.82rem;color:var(--gray-500);line-height:1.65}
+
+/* TESTIMONIALS */
+#reviews{background:var(--gray-100)}
+.reviews-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1.5rem}
+.google-badge{display:flex;align-items:center;gap:1rem;background:var(--white);border:1px solid var(--gray-200);padding:1rem 1.5rem}
+.google-stars{color:#f4b400;font-size:1.1rem;letter-spacing:2px}
+.google-num{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:400;line-height:1}
+.google-sub{font-size:0.72rem;color:var(--gray-500);letter-spacing:0.12em;text-transform:uppercase}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem}
+.review-card{background:var(--white);border:1px solid var(--gray-200);padding:2rem;transition:box-shadow 0.3s,transform 0.3s}
+.review-card:hover{box-shadow:0 12px 40px rgba(0,0,0,0.08);transform:translateY(-4px)}
+.review-stars{color:var(--gold);font-size:0.9rem;letter-spacing:2px;margin-bottom:1rem}
+.review-text{font-size:0.9rem;color:var(--gray-700);line-height:1.75;font-style:italic;margin-bottom:1.2rem;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:1.05rem}
+.review-author{font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gray-500);font-weight:500}
+.review-via{font-size:0.7rem;color:var(--gray-300);margin-top:0.2rem}
+
+/* PROCESS */
+#process{background:var(--white)}
+.process-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;border:1px solid var(--gray-200);margin-top:3rem}
+.process-step{padding:2.5rem 2rem;border-right:1px solid var(--gray-200);position:relative;transition:background 0.3s}
+.process-step:last-child{border-right:none}
+.process-step:hover{background:var(--black)}
+.process-step:hover .step-num,.process-step:hover .step-name,.process-step:hover .step-desc{color:var(--white)!important}
+.step-num{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--gray-200);line-height:1;margin-bottom:1rem;transition:color 0.3s}
+.step-name{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;margin-bottom:0.6rem;transition:color 0.3s}
+.step-desc{font-size:0.82rem;color:var(--gray-500);line-height:1.65;transition:color 0.3s}
+
+/* AREAS */
+#areas{background:var(--black);color:var(--white);text-align:center}
+#areas .section-title{color:var(--white);margin-bottom:3rem}
+.areas-flex{display:flex;flex-wrap:wrap;justify-content:center;gap:0.8rem}
+.area-pill{border:1px solid rgba(255,255,255,0.15);padding:0.6rem 1.4rem;font-size:0.78rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:300;transition:all 0.3s;color:rgba(255,255,255,0.7)}
+.area-pill:hover{border-color:var(--gold);color:var(--gold);background:rgba(184,150,90,0.05)}
+
+/* CONTACT */
+#contact{background:var(--white)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:start}
+.contact-info{}
+.contact-info .section-body{margin-bottom:2.5rem}
+.contact-detail{display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.5rem}
+.c-icon{width:40px;height:40px;background:var(--black);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.c-icon svg{width:16px;height:16px;stroke:var(--white);fill:none;stroke-width:1.5}
+.c-label{font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-500);margin-bottom:0.2rem}
+.c-value{font-size:0.95rem;color:var(--black);line-height:1.5;font-weight:400}
+.whatsapp-btn{display:inline-flex;align-items:center;gap:0.8rem;background:#25d366;color:var(--white);padding:1rem 2rem;font-size:0.82rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:500;transition:all 0.3s var(--ease-out);margin-top:1rem}
+.whatsapp-btn:hover{background:#1eab55;transform:translateY(-2px)}
+.whatsapp-btn svg{width:20px;height:20px;fill:var(--white)}
+.contact-form-wrap{}
+.contact-form{display:flex;flex-direction:column;gap:1.2rem}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.field{display:flex;flex-direction:column;gap:0.4rem}
+.field label{font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gray-500);font-weight:400}
+.field input,.field textarea,.field select{border:1px solid var(--gray-200);background:var(--white);padding:0.85rem 1rem;font-family:'Jost',sans-serif;font-size:0.92rem;color:var(--black);transition:border-color 0.3s,background 0.3s;outline:none;-webkit-appearance:none;border-radius:0}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--black);background:var(--gray-100)}
+.field textarea{resize:vertical;min-height:120px;line-height:1.6}
+.form-submit{background:var(--black);color:var(--white);padding:1.1rem 2.5rem;font-family:'Jost',sans-serif;font-size:0.82rem;letter-spacing:0.18em;text-transform:uppercase;font-weight:500;border:2px solid var(--black);transition:all 0.35s var(--ease-out);cursor:pointer;width:100%;position:relative;overflow:hidden}
+.form-submit::before{content:'';position:absolute;inset:0;background:var(--gold);transform:translateX(-100%);transition:transform 0.4s var(--ease-out)}
+.form-submit:hover::before{transform:translateX(0)}
+.form-submit span{position:relative;z-index:1}
+.form-note{font-size:0.75rem;color:var(--gray-500);text-align:center;margin-top:0.5rem}
+
+/* MAP */
+#location{background:var(--gray-100);padding:0}
+.map-container{height:420px;width:100%;border:0;filter:grayscale(100%) contrast(1.05)}
+
+/* FOOTER */
+footer{background:var(--black);color:var(--white);padding:4rem 5% 2rem}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:4rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:2rem}
+.footer-brand .nav-logo{color:var(--white);font-size:1.8rem;margin-bottom:1rem;display:block}
+.footer-tagline{font-size:0.85rem;color:rgba(255,255,255,0.35);line-height:1.7;font-weight:300;max-width:280px}
+.footer-col-title{font-size:0.7rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem;font-weight:400}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:0.65rem}
+.footer-links a{font-size:0.85rem;color:rgba(255,255,255,0.45);transition:color 0.25s;font-weight:300}
+.footer-links a:hover{color:var(--white)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.footer-copy{font-size:0.75rem;color:rgba(255,255,255,0.2);font-weight:300}
+.footer-rating{display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.3)}
+.footer-rating strong{color:var(--gold)}
+
+/* FLOATING WA */
+.wa-float{position:fixed;bottom:2rem;right:2rem;width:58px;height:58px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:800;box-shadow:0 4px 20px rgba(37,211,102,0.35);transition:transform 0.3s var(--ease-out),box-shadow 0.3s;animation:pulse 2.5s ease-in-out infinite}
+.wa-float:hover{transform:scale(1.1);box-shadow:0 8px 30px rgba(37,211,102,0.45);animation:none}
+.wa-float svg{width:28px;height:28px;fill:var(--white)}
+
+/* KEYFRAMES */
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+@keyframes scrollAnim{0%,100%{transform:scaleY(1);transform-origin:top}50%{transform:scaleY(0.3);transform-origin:top}}
+@keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.35)}50%{box-shadow:0 4px 30px rgba(37,211,102,0.55)}}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .about-grid,.contact-grid{grid-template-columns:1fr;gap:3rem}
+  .about-visual{display:none}
+  .footer-top{grid-template-columns:1fr 1fr;gap:2rem}
+  .portfolio-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+  .p-card-1,.p-card-2,.p-card-3,.p-card-4{grid-column:span 1;aspect-ratio:4/3}
+}
+@media(max-width:768px){
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:flex}
+  nav{padding:1.2rem 5%}
+  .hero-rating-badge{position:static;margin-top:3rem}
+  .hero-content{padding-top:7rem}
+  #trust{flex-direction:column;align-items:center;text-align:center;gap:1.5rem}
+  .trust-divider{display:none}
+  .services-header{flex-direction:column;align-items:flex-start}
+  .about-pillars{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr;gap:2rem}
+  .process-steps{grid-template-columns:1fr 1fr}
+  .process-step{border-right:none;border-bottom:1px solid var(--gray-200)}
+  .process-step:nth-child(2n){border-right:none}
+  .p-card-1,.p-card-2,.p-card-3,.p-card-4{grid-column:span 2}
+  .portfolio-grid{grid-template-columns:1fr 1fr}
+  section{padding:5rem 5%}
+  .hero-scroll{display:none}
+  .cursor,.cursor-follower{display:none}
+}
+@media(max-width:480px){
+  .process-steps{grid-template-columns:1fr}
+  .portfolio-grid{grid-template-columns:1fr}
+  .p-card-1,.p-card-2,.p-card-3,.p-card-4{grid-column:span 1;aspect-ratio:16/9}
+}
+</style>
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="follower"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo">Shivam Decor</div>
+  <div class="loader-bar-wrap"><div class="loader-bar" id="loaderBar"></div></div>
+</div>
+
+<!-- FLOATING WHATSAPP -->
+<a class="wa-float" href="https://wa.me/919795013932?text=Hello%20Shivam%20Decor%2C%20I%20am%20interested%20in%20your%20interior%20design%20services." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- NAVIGATION -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">Shivam Decor</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#portfolio" class="mobile-link">Projects</a>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#reviews" class="mobile-link">Reviews</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero" role="banner">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">Mumbai's Premier Interior Design Studio</span>
+    <h1 class="hero-headline">Spaces That<br><em>Tell Your Story</em></h1>
+    <p class="hero-sub">Shivam Decor transforms residences, offices, and commercial spaces into timeless environments that reflect your vision and elevate your everyday experience.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">
+        Start Your Project
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="https://wa.me/919795013932?text=Hello%20Shivam%20Decor%2C%20I%27d%20like%20to%20discuss%20my%20interior%20design%20project." target="_blank" rel="noopener" class="btn-outline">
+        WhatsApp Us
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </a>
+    </div>
+    <div class="hero-rating-badge">
+      <div class="rating-box">
+        <div class="rating-number">4.9</div>
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-label">10 Google Reviews</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div id="trust" role="complementary" aria-label="Trust statistics">
+  <div class="trust-item reveal">
+    <span class="trust-number" data-count="150">0</span>
+    <span class="trust-label">Projects Completed</span>
+  </div>
+  <div class="trust-divider"></div>
+  <div class="trust-item reveal delay-1">
+    <span class="trust-number">4.9<small style="font-size:1.2rem">/5</small></span>
+    <span class="trust-label">Google Rating</span>
+  </div>
+  <div class="trust-divider"></div>
+  <div class="trust-item reveal delay-2">
+    <span class="trust-number" data-count="8">0</span>
+    <span class="trust-label">Years Experience</span>
+  </div>
+  <div class="trust-divider"></div>
+  <div class="trust-item reveal delay-3">
+    <span class="trust-number" data-count="12">0</span>
+    <span class="trust-label">Service Types</span>
+  </div>
+  <div class="trust-divider"></div>
+  <div class="trust-item reveal delay-4">
+    <span class="trust-number">24<small style="font-size:1.2rem">hrs</small></span>
+    <span class="trust-label">Always Available</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="services-header">
+    <div class="reveal-left">
+      <span class="section-tag">What We Do</span>
+      <h2 class="section-title" id="services-heading">Complete Interior<br><em>Design Solutions</em></h2>
+    </div>
+    <p class="section-body reveal-right" style="margin-bottom:0;max-width:380px">From concept to completion, we deliver turnkey interior projects with unmatched attention to detail across Mumbai and all India.</p>
+  </div>
+  <div class="services-grid">
+    <article class="service-card reveal delay-1">
+      <span class="service-icon">⌂</span>
+      <h3 class="service-name">Residence & Apartment Interiors</h3>
+      <p class="service-desc">Bespoke interior design for apartments, flats, and homes across Mumbai — crafted to reflect your personality and lifestyle.</p>
+    </article>
+    <article class="service-card reveal delay-2">
+      <span class="service-icon">▲</span>
+      <h3 class="service-name">Villa & Bungalow Interiors</h3>
+      <p class="service-desc">Luxurious, expansive interiors for villas and bungalows — combining grandeur with functional design excellence.</p>
+    </article>
+    <article class="service-card reveal delay-3">
+      <span class="service-icon">◼</span>
+      <h3 class="service-name">Office Interior Design</h3>
+      <p class="service-desc">Inspiring workspaces that boost productivity and reflect your brand identity — for startups to corporate headquarters.</p>
+    </article>
+    <article class="service-card reveal delay-4">
+      <span class="service-icon">◈</span>
+      <h3 class="service-name">Commercial Interiors</h3>
+      <p class="service-desc">Retail outlets, showrooms, restaurants, and hospitality spaces designed to captivate customers and drive business.</p>
+    </article>
+    <article class="service-card reveal delay-1">
+      <span class="service-icon">⬡</span>
+      <h3 class="service-name">Lobby & Reception Design</h3>
+      <p class="service-desc">First impressions that last — premium lobby and entrance designs for residential complexes and commercial buildings.</p>
+    </article>
+    <article class="service-card reveal delay-2">
+      <span class="service-icon">◎</span>
+      <h3 class="service-name">Clubhouse Infrastructure</h3>
+      <p class="service-desc">Complete clubhouse interior design and infrastructure setup — for residential societies and premium townships.</p>
+    </article>
+    <article class="service-card reveal delay-3">
+      <span class="service-icon">⊞</span>
+      <h3 class="service-name">Premium Carpentry</h3>
+      <p class="service-desc">Custom woodwork, modular kitchens, wardrobes, and furniture crafted by master artisans for lasting quality.</p>
+    </article>
+    <article class="service-card reveal delay-4">
+      <span class="service-icon">◌</span>
+      <h3 class="service-name">Tiling & Flooring</h3>
+      <p class="service-desc">Expert tiling services — from Italian marble to vitrified tiles, laid with precision for a flawless finish.</p>
+    </article>
+    <article class="service-card reveal delay-1">
+      <span class="service-icon">▨</span>
+      <h3 class="service-name">Interior Painting & Textures</h3>
+      <p class="service-desc">Professional painting with premium finishes — from solid colours to designer textures and wall art treatments.</p>
+    </article>
+    <article class="service-card reveal delay-2">
+      <span class="service-icon">✦</span>
+      <h3 class="service-name">Interior Styling & Décor</h3>
+      <p class="service-desc">Space styling, art curation, furniture sourcing, lighting design, and décor placement for the perfect aesthetic.</p>
+    </article>
+    <article class="service-card reveal delay-3">
+      <span class="service-icon">⊙</span>
+      <h3 class="service-name">Turnkey Interior Projects</h3>
+      <p class="service-desc">End-to-end turnkey solutions — design, procurement, execution, and handover under one roof, on time.</p>
+    </article>
+    <article class="service-card reveal delay-4">
+      <span class="service-icon">◉</span>
+      <h3 class="service-name">Renovation & Makeovers</h3>
+      <p class="service-desc">Breathe new life into existing spaces with expert renovation services tailored to your vision and budget.</p>
+    </article>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" aria-labelledby="portfolio-heading">
+  <span class="section-tag reveal">Our Work</span>
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:1.5rem;margin-bottom:1.5rem">
+    <h2 class="section-title reveal" id="portfolio-heading">Landmark Projects<br><em>Across India</em></h2>
+    <a href="#contact" class="btn-primary reveal">Discuss Your Project</a>
+  </div>
+  <p class="portfolio-intro reveal">From premium residences at Lodha and Kalpataru developments to commercial spaces across Mumbai — our portfolio spans the most prestigious addresses in the country.</p>
+  <div class="portfolio-grid">
+    <div class="p-card p-card-1 reveal">
+      <div class="p-card-visual">
+        <div class="p-card-bg bg-1"></div>
+        <div class="p-overlay"></div>
+        <div class="p-card-inner">
+          <div class="p-tag">Residential</div>
+          <div class="p-title">Lodha Palava — Luxury Apartment</div>
+          <div class="p-loc">Dombivali, Mumbai · 3BHK Turnkey</div>
+        </div>
+      </div>
+    </div>
+    <div class="p-card p-card-2 reveal delay-1">
+      <div class="p-card-visual">
+        <div class="p-card-bg bg-2"></div>
+        <div class="p-overlay"></div>
+        <div class="p-card-inner">
+          <div class="p-tag">Commercial</div>
+          <div class="p-title">Corporate Office — Andheri West</div>
+          <div class="p-loc">Mumbai · 5000 sq ft Office</div>
+        </div>
+      </div>
+    </div>
+    <div class="p-card p-card-3 reveal delay-2">
+      <div class="p-card-visual">
+        <div class="p-card-bg bg-3"></div>
+        <div class="p-overlay"></div>
+        <div class="p-card-inner">
+          <div class="p-tag">Villa</div>
+          <div class="p-title">Kalpataru Villa — Full Design</div>
+          <div class="p-loc">Thane, Mumbai · Luxury Villa</div>
+        </div>
+      </div>
+    </div>
+    <div class="p-card p-card-4 reveal delay-3">
+      <div class="p-card-visual">
+        <div class="p-card-bg bg-4"></div>
+        <div class="p-overlay"></div>
+        <div class="p-card-inner">
+          <div class="p-tag">Clubhouse · Ongoing</div>
+          <div class="p-title">Vrindavan Township — Clubhouse & Lobby</div>
+          <div class="p-loc">All India · Infrastructure & Interiors</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-stats">
+    <div class="reveal">
+      <div class="p-stat-num">150<span>+</span></div>
+      <div class="p-stat-label">Projects Delivered</div>
+    </div>
+    <div class="reveal delay-1">
+      <div class="p-stat-num">8<span>+</span></div>
+      <div class="p-stat-label">Years in Business</div>
+    </div>
+    <div class="reveal delay-2">
+      <div class="p-stat-num">20<span>+</span></div>
+      <div class="p-stat-label">Ongoing Projects</div>
+    </div>
+    <div class="reveal delay-3">
+      <div class="p-stat-num">5<span>+</span></div>
+      <div class="p-stat-label">States Served</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="about-grid">
+    <div class="about-visual reveal-left">
+      <div class="about-img-frame">
+        <div class="about-img-inner">
+          <div class="about-monogram">SD</div>
+        </div>
+        <div class="about-badge">
+          <div class="about-badge-num">8+</div>
+          <div class="about-badge-text">Years of Craftsmanship</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-content reveal-right">
+      <span class="section-tag">Our Story</span>
+      <h2 class="section-title" id="about-heading">Built on Trust,<br><em>Driven by Design</em></h2>
+      <p class="section-body" style="margin-bottom:1.2rem">Shivam Decor is a Mumbai-based premium interior design and execution firm with over 8 years of expertise. We operate out of Goregaon East and serve clients across Mumbai, the MMR region, and all of India.</p>
+      <p class="section-body">Our approach combines architectural sensibility with hands-on craftsmanship. Every project — from a compact apartment to a large commercial complex — receives the same level of dedication, precision, and creative vision. We handle everything: design, carpentry, tiling, painting, styling, and turnkey delivery.</p>
+      <div class="about-pillars">
+        <div class="pillar reveal delay-1">
+          <div class="pillar-title">Premium Quality</div>
+          <p class="pillar-body">Only the finest materials, hardware, and finishes — sourced from trusted suppliers and installed by skilled craftsmen.</p>
+        </div>
+        <div class="pillar reveal delay-2">
+          <div class="pillar-title">On-Time Delivery</div>
+          <p class="pillar-body">We respect your timelines. Our project management ensures milestones are met and deadlines honoured.</p>
+        </div>
+        <div class="pillar reveal delay-3">
+          <div class="pillar-title">Transparent Pricing</div>
+          <p class="pillar-body">No hidden costs. Detailed quotations and clear billing so you're always in control of your investment.</p>
+        </div>
+        <div class="pillar reveal delay-4">
+          <div class="pillar-title">End-to-End Service</div>
+          <p class="pillar-body">From first concept sketch to final walk-through, we manage every aspect of your project under one roof.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" aria-labelledby="process-heading">
+  <div style="text-align:center;max-width:600px;margin:0 auto 1rem">
+    <span class="section-tag reveal">How We Work</span>
+    <h2 class="section-title reveal" id="process-heading">Our <em>Design Process</em></h2>
+  </div>
+  <div class="process-steps">
+    <div class="process-step reveal delay-1">
+      <div class="step-num">01</div>
+      <div class="step-name">Consultation</div>
+      <p class="step-desc">We begin with an in-depth conversation to understand your vision, lifestyle, and budget requirements.</p>
+    </div>
+    <div class="process-step reveal delay-2">
+      <div class="step-num">02</div>
+      <div class="step-name">Concept Design</div>
+      <p class="step-desc">Our designers create detailed mood boards, floor plans, and 3D visualisations for your approval.</p>
+    </div>
+    <div class="process-step reveal delay-3">
+      <div class="step-num">03</div>
+      <div class="step-name">Material Selection</div>
+      <p class="step-desc">We guide you through a curated selection of premium materials, finishes, and furnishings.</p>
+    </div>
+    <div class="process-step reveal delay-4">
+      <div class="step-num">04</div>
+      <div class="step-name">Execution</div>
+      <p class="step-desc">Our skilled team executes the project with precision — carpentry, tiling, painting, and fit-outs.</p>
+    </div>
+    <div class="process-step reveal delay-5">
+      <div class="step-num">05</div>
+      <div class="step-name">Handover</div>
+      <p class="step-desc">Final styling, inspection, and a complete walk-through before we hand over your dream space.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" aria-labelledby="reviews-heading">
+  <div class="reviews-header">
+    <div>
+      <span class="section-tag reveal">Client Voices</span>
+      <h2 class="section-title reveal" id="reviews-heading">What Our Clients<br><em>Say About Us</em></h2>
+    </div>
+    <div class="google-badge reveal">
+      <div>
+        <div class="google-num">4.9</div>
+        <div class="google-stars">★★★★★</div>
+        <div class="google-sub">Google Verified</div>
+      </div>
+      <div style="width:1px;height:50px;background:var(--gray-200)"></div>
+      <div>
+        <div style="font-size:1.6rem;font-weight:300;font-family:'Cormorant Garamond',serif">10</div>
+        <div class="google-sub">Reviews</div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-grid">
+    <article class="review-card reveal delay-1">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Shivam Decor transformed our apartment at Lodha into something straight out of a design magazine. Every detail was perfection and they delivered on time."</p>
+      <div class="review-author">Rajesh Mehta</div>
+      <div class="review-via">Lodha Palava · 3BHK Apartment</div>
+    </article>
+    <article class="review-card reveal delay-2">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Professional from day one. The team understood our brief perfectly and the quality of carpentry and tiling work is outstanding. Highly recommend for office interiors."</p>
+      <div class="review-author">Priya Sharma</div>
+      <div class="review-via">Andheri · Corporate Office</div>
+    </article>
+    <article class="review-card reveal delay-3">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Our bungalow interiors exceeded every expectation. Shivam Decor's attention to detail is remarkable. The team is skilled, honest, and incredibly professional."</p>
+      <div class="review-author">Suresh Patil</div>
+      <div class="review-via">Thane · Bungalow Interior</div>
+    </article>
+    <article class="review-card reveal delay-1">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Best interior designers in Goregaon. Our Kalpataru apartment looks stunning. The entire turnkey execution was seamless and stress-free."</p>
+      <div class="review-author">Anita Desai</div>
+      <div class="review-via">Goregaon · Apartment Interiors</div>
+    </article>
+    <article class="review-card reveal delay-2">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"They designed our retail showroom in Malad and the result was incredible. Footfall increased significantly. The team is creative and delivers on budget."</p>
+      <div class="review-author">Vikram Joshi</div>
+      <div class="review-via">Malad · Commercial Showroom</div>
+    </article>
+    <article class="review-card reveal delay-3">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Shivam Decor handled our villa project with utmost professionalism. The lobby design is breathtaking and the clubhouse infrastructure is world-class."</p>
+      <div class="review-author">Neha Kapoor</div>
+      <div class="review-via">Noida · Villa & Clubhouse</div>
+    </article>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section id="areas" aria-labelledby="areas-heading">
+  <span class="section-tag reveal" style="color:var(--gold)">Where We Work</span>
+  <h2 class="section-title reveal" id="areas-heading" style="color:var(--white)">Serving Mumbai<br><em>&amp; Beyond</em></h2>
+  <div class="areas-flex" style="margin-top:2rem">
+    <span class="area-pill reveal">Goregaon</span>
+    <span class="area-pill reveal delay-1">Andheri</span>
+    <span class="area-pill reveal delay-2">Malad</span>
+    <span class="area-pill reveal delay-3">Borivali</span>
+    <span class="area-pill reveal delay-4">Kandivali</span>
+    <span class="area-pill reveal">Jogeshwari</span>
+    <span class="area-pill reveal delay-1">Bandra</span>
+    <span class="area-pill reveal delay-2">Juhu</span>
+    <span class="area-pill reveal delay-3">Thane</span>
+    <span class="area-pill reveal delay-4">Navi Mumbai</span>
+    <span class="area-pill reveal">Powai</span>
+    <span class="area-pill reveal delay-1">Mulund</span>
+    <span class="area-pill reveal delay-2">Vikhroli</span>
+    <span class="area-pill reveal delay-3">Kurla</span>
+    <span class="area-pill reveal delay-4">Dadar</span>
+    <span class="area-pill reveal">Worli</span>
+    <span class="area-pill reveal delay-1">Mira Road</span>
+    <span class="area-pill reveal delay-2">Vasai</span>
+    <span class="area-pill reveal delay-3">Noida</span>
+    <span class="area-pill reveal delay-4">All India</span>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="contact-grid">
+    <div class="contact-info reveal-left">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title" id="contact-heading">Let's Create<br><em>Something Beautiful</em></h2>
+      <p class="section-body">Ready to transform your space? Reach out via the form, call us directly, or send a WhatsApp message. We respond promptly.</p>
+      <div style="margin-top:2rem">
+        <div class="contact-detail">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          </div>
+          <div>
+            <div class="c-label">Phone</div>
+            <a href="tel:+919795013932" class="c-value">+91 97950 13932</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="c-label">Address</div>
+            <div class="c-value">Shop No 1, Surya Compound, A K Marg<br>Shree Krishna Nagar, Goregaon East<br>Mumbai, Maharashtra 400065</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="c-label">Hours</div>
+            <div class="c-value">Open 24 Hours, 7 Days a Week</div>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/919795013932?text=Hello%20Shivam%20Decor%2C%20I%27d%20like%20to%20discuss%20an%20interior%20design%20project." target="_blank" rel="noopener" class="whatsapp-btn">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+    <div class="contact-form-wrap reveal-right">
+      <div class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="name" placeholder="Rajesh Mehta" required>
+          </div>
+          <div class="field">
+            <label for="fphone">Phone Number</label>
+            <input type="tel" id="fphone" name="phone" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="femail">Email Address</label>
+          <input type="email" id="femail" name="email" placeholder="your@email.com">
+        </div>
+        <div class="field">
+          <label for="fservice">Service Required</label>
+          <select id="fservice" name="service">
+            <option value="">Select a Service</option>
+            <option>Apartment / Flat Interior</option>
+            <option>Villa / Bungalow Interior</option>
+            <option>Office Interior Design</option>
+            <option>Commercial Interior Design</option>
+            <option>Lobby / Reception Design</option>
+            <option>Clubhouse Infrastructure</option>
+            <option>Carpentry & Woodwork</option>
+            <option>Tiling & Flooring</option>
+            <option>Interior Painting</option>
+            <option>Interior Styling & Décor</option>
+            <option>Turnkey Interior Project</option>
+            <option>Renovation & Makeover</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="flocation">Project Location</label>
+          <input type="text" id="flocation" name="location" placeholder="e.g. Andheri West, Mumbai">
+        </div>
+        <div class="field">
+          <label for="fmessage">Tell Us About Your Project</label>
+          <textarea id="fmessage" name="message" placeholder="Share details about your space, budget, and what you're envisioning..."></textarea>
+        </div>
+        <button type="button" class="form-submit" id="submitBtn" onclick="sendToWhatsApp()">
+          <span>Send via WhatsApp &rarr;</span>
+        </button>
+        <p class="form-note">Clicking will open WhatsApp with your message pre-filled to +91 97950 13932</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP / LOCATION -->
+<div id="location" aria-label="Our location on map">
+  <iframe
+    class="map-container"
+    src="https://maps.google.com/maps?q=Shop+No+1+Surya+Compound+AK+Marg+Goregaon+East+Mumbai+400065&output=embed&z=16"
+    loading="lazy"
+    allowfullscreen
+    title="Shivam Decor location on Google Maps">
+  </iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="nav-logo" style="color:var(--white);font-size:1.8rem;display:block;margin-bottom:1rem">Shivam Decor</span>
+      <p class="footer-tagline">Mumbai's trusted premium interior design studio. Transforming spaces across residences, offices, and commercial establishments since 2016.</p>
+      <div style="margin-top:1.5rem">
+        <a href="https://wa.me/919795013932" target="_blank" rel="noopener" style="color:var(--gold);font-size:0.85rem;letter-spacing:0.12em;font-weight:400">+91 97950 13932</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <ul class="footer-links">
+        <li><a href="#services">Residence Interiors</a></li>
+        <li><a href="#services">Office Interiors</a></li>
+        <li><a href="#services">Villa & Bungalow</a></li>
+        <li><a href="#services">Commercial Design</a></li>
+        <li><a href="#services">Lobby & Clubhouse</a></li>
+        <li><a href="#services">Carpentry & Tiling</a></li>
+        <li><a href="#services">Turnkey Projects</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Company</div>
+      <ul class="footer-links">
+        <li><a href="#about">About Shivam Decor</a></li>
+        <li><a href="#portfolio">Our Projects</a></li>
+        <li><a href="#reviews">Client Reviews</a></li>
+        <li><a href="#process">Our Process</a></li>
+        <li><a href="#areas">Service Areas</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 Shivam Decor. All rights reserved. Interior Designer in Mumbai, Maharashtra.</div>
+    <div class="footer-rating">
+      Google Rating <strong>4.9 / 5</strong> ★ from 10 reviews
+    </div>
+  </div>
+</footer>
+
+<script>
+// ————— LOADER —————
+window.addEventListener('load',()=>{
+  const bar=document.getElementById('loaderBar');
+  bar.style.width='100%';
+  setTimeout(()=>{
+    document.getElementById('loader').classList.add('gone');
+  },1600);
+});
+
+// ————— CURSOR —————
+const cur=document.getElementById('cursor');
+const fol=document.getElementById('follower');
+let mx=0,my=0,fx=0,fy=0;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  cur.style.transform=`translate(${mx}px,${my}px) translate(-50%,-50%)`;
+});
+(function tick(){
+  fx+=(mx-fx)*0.1;fy+=(my-fy)*0.1;
+  fol.style.transform=`translate(${fx}px,${fy}px) translate(-50%,-50%)`;
+  requestAnimationFrame(tick);
+})();
+document.querySelectorAll('a,button,.service-card,.p-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{
+    cur.style.transform+=' scale(2)';
+    fol.style.transform+=' scale(1.5)';
+    fol.style.opacity='0.6';
+  });
+  el.addEventListener('mouseleave',()=>{
+    fol.style.opacity='0.35';
+  });
+});
+
+// ————— NAV SCROLL —————
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{
+  nav.classList.toggle('scrolled',window.scrollY>60);
+});
+
+// ————— HAMBURGER —————
+const ham=document.getElementById('hamburger');
+const mob=document.getElementById('mobileMenu');
+ham.addEventListener('click',()=>{
+  ham.classList.toggle('open');
+  mob.classList.toggle('open');
+  document.body.style.overflow=mob.classList.contains('open')?'hidden':'';
+});
+document.querySelectorAll('.mobile-link').forEach(l=>{
+  l.addEventListener('click',()=>{
+    ham.classList.remove('open');
+    mob.classList.remove('open');
+    document.body.style.overflow='';
+  });
+});
+
+// ————— REVEAL ON SCROLL —————
+const reveals=document.querySelectorAll('.reveal,.reveal-left,.reveal-right');
+const obs=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      obs.unobserve(e.target);
+    }
+  });
+},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+reveals.forEach(r=>obs.observe(r));
+
+// ————— COUNT UP —————
+function animateCount(el,target,dur=1800){
+  let start=null;
+  const step=ts=>{
+    if(!start)start=ts;
+    const prog=Math.min((ts-start)/dur,1);
+    el.textContent=Math.floor(prog*target);
+    if(prog<1)requestAnimationFrame(step);
+    else el.textContent=target;
+  };
+  requestAnimationFrame(step);
+}
+const countObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const el=e.target;
+      const target=parseInt(el.dataset.count);
+      if(!isNaN(target)){animateCount(el,target);}
+      countObs.unobserve(el);
+    }
+  });
+},{threshold:0.5});
+document.querySelectorAll('[data-count]').forEach(el=>countObs.observe(el));
+
+// ————— WHATSAPP FORM —————
+function sendToWhatsApp(){
+  const name=document.getElementById('fname').value.trim();
+  const phone=document.getElementById('fphone').value.trim();
+  const email=document.getElementById('femail').value.trim();
+  const service=document.getElementById('fservice').value;
+  const location=document.getElementById('flocation').value.trim();
+  const message=document.getElementById('fmessage').value.trim();
+  if(!name||!phone){
+    alert('Please enter your name and phone number.');
+    return;
+  }
+  let msg=`Hello Shivam Decor! 👋\n\n`;
+  msg+=`*Name:* ${name}\n`;
+  msg+=`*Phone:* ${phone}\n`;
+  if(email) msg+=`*Email:* ${email}\n`;
+  if(service) msg+=`*Service Required:* ${service}\n`;
+  if(location) msg+=`*Project Location:* ${location}\n`;
+  if(message) msg+=`\n*Project Details:*\n${message}\n`;
+  msg+=`\nI found you on your website and would like to discuss my interior design project.`;
+  const encoded=encodeURIComponent(msg);
+  window.open(`https://wa.me/919795013932?text=${encoded}`,'_blank');
+}
+
+// ————— SMOOTH ACTIVE NAV —————
+const sections=document.querySelectorAll('section[id]');
+const navLinks=document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll',()=>{
+  let cur='';
+  sections.forEach(s=>{
+    if(window.scrollY>=s.offsetTop-120)cur=s.getAttribute('id');
+  });
+  navLinks.forEach(l=>{
+    l.style.color=l.getAttribute('href')==='#'+cur?'var(--black)':'';
+  });
+},{passive:true});
+</script>
+</body>
+</html>
